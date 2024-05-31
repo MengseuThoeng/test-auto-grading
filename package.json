@@ -1,0 +1,29 @@
+{
+  "name": "codingstyle",
+  "version": "1.0.0",
+  "description": "Java coding style",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "remark-cli": "^12.0.0",
+    "remark-lint": "^10.0.0",
+    "remark-preset-lint-recommended": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint-md": "remark ."
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-lint-recommended"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenkinsci/analysis-model.git"
+  },
+  "author": "Ullrich Hafner",
+  "license": "MIT",
+  "homepage": "https://github.com/jenkinsci/analysis-model#readme"
+}
